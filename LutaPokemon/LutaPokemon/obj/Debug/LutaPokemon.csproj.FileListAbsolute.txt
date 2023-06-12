@@ -1,0 +1,8 @@
+C:\Users\mfdma\source\repos\LutaPokemon\LutaPokemon\bin\Debug\LutaPokemon.exe.config
+C:\Users\mfdma\source\repos\LutaPokemon\LutaPokemon\bin\Debug\LutaPokemon.exe
+C:\Users\mfdma\source\repos\LutaPokemon\LutaPokemon\bin\Debug\LutaPokemon.pdb
+C:\Users\mfdma\source\repos\LutaPokemon\LutaPokemon\obj\Debug\LutaPokemon.csproj.AssemblyReference.cache
+C:\Users\mfdma\source\repos\LutaPokemon\LutaPokemon\obj\Debug\LutaPokemon.csproj.SuggestedBindingRedirects.cache
+C:\Users\mfdma\source\repos\LutaPokemon\LutaPokemon\obj\Debug\LutaPokemon.csproj.CoreCompileInputs.cache
+C:\Users\mfdma\source\repos\LutaPokemon\LutaPokemon\obj\Debug\LutaPokemon.exe
+C:\Users\mfdma\source\repos\LutaPokemon\LutaPokemon\obj\Debug\LutaPokemon.pdb
