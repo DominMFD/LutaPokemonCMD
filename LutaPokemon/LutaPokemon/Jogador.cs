@@ -56,6 +56,7 @@ namespace LutaPokemon
                 Console.WriteLine("Elemento: " + pokemonJogador.elemento);
                 Console.WriteLine("Golpes: " + pokemonJogador.golpes[0].Nome +", "+ pokemonJogador.golpes[1].Nome +", "+ pokemonJogador.golpes[2].Nome +", "+ pokemonJogador.golpes[3].Nome) ;
                 Console.WriteLine("Nivel: " + pokemonJogador.nivel);
+                Console.WriteLine("Experiencia: " + pokemonJogador.exp);
                 Console.WriteLine("========================");
                 id++;
             }

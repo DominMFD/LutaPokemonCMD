@@ -14,6 +14,7 @@ namespace LutaPokemon
         public double vida { get; set; }
         public int def { get; set; }
         public Golpe[] golpes { get; set; }
+        public static Random r = new Random();
 
         public Pokemon()
         {
@@ -32,8 +33,6 @@ namespace LutaPokemon
 
         public Pokemon Inimigo()
         {
-
-            Random r = new Random();
             int i;
             ListaPokemon.ListaPokemons();
             i = r.Next(0, ListaPokemon.pokemons.Count);

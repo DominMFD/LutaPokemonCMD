@@ -11,6 +11,7 @@ namespace LutaPokemon
     {
       static Jogador jogador = new Jogador("Domiinguera");
       static Pokemon pokemon = new Pokemon();
+      public static Random r = new Random();
         static void Main(string[] args)
         {
             Golpe.ListadeGolpes();
@@ -52,7 +53,7 @@ namespace LutaPokemon
             int d;
             double vidapokejogador = pokeJogador.vida;
             double vidapokeselvagem = pokeSelvagem.vida;
-            Random r = new Random();
+
             
 
             Console.Clear();
@@ -94,6 +95,10 @@ namespace LutaPokemon
                 Console.WriteLine($"{pokeSelvagem.nome} foi derrotado");
                 Console.WriteLine("PARABENS!!!!!! Voce ganhou a partida");
                 jogador.batVenc++;
+                int exp = r.Next(40, 70);
+                pokeJogador.exp += exp;
+                Console.WriteLine($"Seu pokemon recebeu {exp} de experiencia");
+                pokeJogador.SubirNivel();
                 jogador.Capturar(pokeSelvagem);
             }
 
